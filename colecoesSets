@@ -1,0 +1,6 @@
+"""
+Set é uma coleção nao ordenada , imutável* e não indexada.
+Nenhum membro duplicado , usa-se chaves {}
+"""
+meuSets = {"Adriana","Raquel","Joy","Neuma","Raquel"} # ao executar ele não reconhece o membro duplicado.
+print(meuSets)
