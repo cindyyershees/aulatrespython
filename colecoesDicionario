@@ -1,0 +1,11 @@
+""""
+Dicionario é uma coleção ordenada e mutável.
+Nenhum membro duplicado.  Usa-se chaves {} mas a referencia usa-se colchetes []
+"""
+meuDicionario = {
+    "cliente": "juan",
+    "tipoConta":"CP",
+    "saldo":1000
+}
+print(meuDicionario['cliente'])
+print(meuDicionario['tipoConta'])
