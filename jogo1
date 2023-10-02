@@ -1,0 +1,21 @@
+import random
+
+numerosorteado = random.randint(1,10) #escolher número de 1 a 10.
+tentativas = 1;
+
+
+resp = 's'
+while resp == 's':
+    chute = int(input('Chute o seu palpite:'))
+
+    if chute == numerosorteado:
+        print('Parabéns voce acertou!!')
+        print('Voce acertou em:', tentativas ,'tentativas')
+        break
+    else:
+        print('Errooooooooooooooooooou!!')
+        tentativas = tentativas + 1
+    resp = input('Quer continuar? s/n')
+
+print('o número era',numerosorteado)
+
